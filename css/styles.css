@@ -178,7 +178,8 @@ img {
 .nav__logo {
   color: var(--second-color);
   
-  
+  border-width: thin;
+ 
 }
 
 .nav__toggle {
@@ -338,7 +339,7 @@ img {
 }
 
 .skills__php {
-  width: 55%;
+  width: 67%;
 }
 
 .skills__img {
@@ -348,21 +349,32 @@ img {
 /* ===== Projets =====*/
 .proj__container {
   row-gap: 2rem;
+  
 }
 
 .proj__img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow: hidden;
+  
+}
+
+
+.proj__img:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 200px #d35400;
+ 
 }
 
 .proj__img img {
   transition: 1s;
   cursor: pointer;
+  transform: scale(1.075);
 }
 
 .proj__img img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+ 
 }
 
 /* ===== CONTACT =====*/
@@ -396,6 +408,7 @@ img {
 }
 
 .footer__title {
+  color: black;
   font-size: 2rem;
   margin-bottom: var(--mb-4);
 }
