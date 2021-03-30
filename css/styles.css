@@ -408,7 +408,7 @@ img {
 }
 
 .footer__title {
-  color: black;
+  color: white;
   font-size: 2rem;
   margin-bottom: var(--mb-4);
 }
